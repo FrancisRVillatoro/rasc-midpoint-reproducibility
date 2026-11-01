@@ -1,0 +1,9 @@
+benchmark,mode,rate_full_precision,rational,abs_diff_to_rational,note
+nls (eta=1 c=1),phase,+0.670572916666663,515/768,3.7e-15,contour quadrature converged to 1.8e-15
+nls (eta=1 c=1),translation,-0.026041666666666,-5/192,1.1e-15,contour quadrature converged to 1.8e-15
+sg breather (omega=0.5),phase,-0.161458333331338,-31/192,2.0e-12,limited by Richardson differences of the modes
+kdv (kappa=1) L=64,translation,-15.736200716846,,,periodic domain; includes mass-mode contribution
+kdv (kappa=1) L=96,translation,-15.704964539007,,,
+kdv (kappa=1) L=128,translation,-15.689594356261,,,
+kdv (kappa=1) L=192,translation,-15.674385964943,,,
+kdv (kappa=1) L->infinity,translation,-15.6444640457,(-704/45 ?),2.0e-5,"fit a+b/L+c/L^2 on 4 domains, residual 7.6e-7; compatible with -704/45, not established"

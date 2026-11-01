@@ -1,0 +1,4 @@
+L = Matrix([[0, 1, 0], [0, 0, 0], [0, 0, 0]])
+invariant*g = Matrix([[0]]) L*g = Matrix([[0], [0], [0]])
+g is in ker L but outside Ran Z: no t^2 forcing, yet not only symmetry drift
+R2 NEUTRAL-CLOSURE PASS

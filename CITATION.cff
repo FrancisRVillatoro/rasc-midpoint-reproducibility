@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this software/data release and the accompanying RASC study. No DOI has yet been assigned to this local release."
+type: software
+title: "RASC midpoint: code, data and verification for secular modulation and long-time accuracy"
+version: 1.0.0
+authors:
+  - family-names: Villatoro
+    given-names: Francisco R.
+    affiliation: "Universidad de Málaga"
+    orcid: "https://orcid.org/0000-0003-4314-6213"
+license: MIT
+abstract: >-
+  Reproducibility artifact for renormalized asymptotic successive corrections
+  of implicit midpoint. It includes archived and residual-checked numerical
+  experiments, per-step algebraic certificates, complete recorded snapshots,
+  reference integrations, symbolic and numerical regression tests, and scripts
+  for rebuilding the numerical evidence. Long-time nonlinear error bounds are
+  conditional; the NLS second-corrector diagnostics are finite-window results.
+  The manuscript and its LaTeX sources are not included. Original data and
+  documentation are licensed CC BY 4.0 as specified in DATA_LICENSE.
+  Supported by Universidad de Málaga, project PPRO-B4-2026-004
+  (Plan Propio de Investigación, Transferencia y Divulgación Científica).
+keywords:
+  - implicit midpoint
+  - asymptotic successive correction
+  - renormalization
+  - relative equilibria
+  - long-time integration
+  - numerical reproducibility

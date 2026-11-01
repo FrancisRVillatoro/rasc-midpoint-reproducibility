@@ -1,0 +1,7 @@
+Gate G1 (kernel validation)
+  T1 dG2/ddG2/H2 vs symbolic: worst rel err = 1.31e-15
+  T2 defect ratios vs f+h^2G2      :  34.80   33.61   32.85   (gate [30,35])
+  T2 defect ratios vs f+h^2G2+h^4G4: 120.28  126.27  127.56   (gate [115,140])
+  T3 orders: p2=2.000 [1.97,2.03]  p4=4.000 [3.90,4.10]  p6=5.993,6.001 [5.85,6.15]
+  T3 ablation (no H2): p=3.999,4.000 [3.90,4.10]
+GATE G1: PASS

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "exact_controls",
+      "returncode": 0,
+      "log": "exact_controls.log"
+    },
+    {
+      "check": "kernel_G1",
+      "returncode": 0,
+      "log": "kernel_G1.log"
+    },
+    {
+      "check": "sg_initial_section",
+      "returncode": 0,
+      "log": "sg_initial_section.log"
+    }
+  ],
+  "qualification": "Exact identities and finite-dimensional kernel checks; not uniform nonlinear PDE stability or reference certification."
+}

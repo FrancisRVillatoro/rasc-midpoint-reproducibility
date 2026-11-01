@@ -1,0 +1,5 @@
+collocation translation-equivariance defect: 2.130971047133e-01
+Galerkin translation-equivariance defect: 2.551998018232e-14
+collocation U1-equivariance defect: 2.116205656614e-14
+Galerkin U1-equivariance defect: 1.956679497272e-14
+R2 SYMMETRY-SCOPE PASS

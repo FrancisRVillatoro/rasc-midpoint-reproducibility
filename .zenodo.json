@@ -1,0 +1,23 @@
+{
+  "title": "RASC midpoint: code, data and verification for secular modulation and long-time accuracy",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Villatoro, Francisco R.",
+      "affiliation": "Universidad de Málaga",
+      "orcid": "0000-0003-4314-6213"
+    }
+  ],
+  "description": "<p>Reproducibility artifact for <em>Renormalized asymptotic successive corrections for implicit midpoint: secular modulation and long-time accuracy</em>.</p><p>Includes immutable recorded numerical data, residual acceptance certificates, complete saved states and second-corrector snapshots, independent reference integrations, scientific source code and exact/numerical regression tests. It supports fixed-time reconstruction checks and finite-window long-time experiments; it does not certify a general nonlinear PDE stability theorem. The manuscript and its LaTeX sources are intentionally excluded.</p><p>Software: MIT. Original data, documentation and figures: CC BY 4.0 (see DATA_LICENSE). This RASC artifact is separate from the previously archived ASC midpoint artifact, DOI 10.5281/zenodo.23048130. Version metadata is explicitly 1.0.0 in both this file and CITATION.cff. No self-DOI is preassigned in the package.</p><p>Funding: This work was supported by Universidad de Málaga, project PPRO-B4-2026-004 (Plan Propio de Investigación, Transferencia y Divulgación Científica).</p>",
+  "keywords": [
+    "implicit midpoint",
+    "asymptotic successive correction",
+    "renormalization",
+    "relative equilibria",
+    "long-time integration",
+    "reproducibility"
+  ]
+}

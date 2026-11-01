@@ -1,0 +1,9 @@
+# Versions executed for R3; Python 3.13.5.
+# These are reproducibility metadata, not an instruction to install on Picasso.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+sympy==1.14.0
+PyMuPDF==1.26.7
+# Figure PDF build uses matplotlib and PyMuPDF; manuscript compilation is separate.
+mpmath==1.3.0

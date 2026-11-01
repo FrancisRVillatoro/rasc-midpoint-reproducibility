@@ -1,0 +1,4 @@
+h=0.1000, T=200.00, nonlinear response=1.000099980007
+h=0.0500, T=800.00, nonlinear response=1.000006249922
+h=0.0250, T=3200.00, nonlinear response=1.000000390625
+R2 COUNTEREXAMPLE PASS: linear-product control alone is insufficient for all slow times

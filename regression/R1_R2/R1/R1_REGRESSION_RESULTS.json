@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scripts": [
+    {
+      "script": "check_nls_mass.py",
+      "sha256": "038347a35c64abdb2cb850d176446b2507eb66a49b94c11cc148f8a957fbe6d1",
+      "returncode": 0,
+      "log": "check_nls_mass.log"
+    },
+    {
+      "script": "check_nls_order4_profile.py",
+      "sha256": "7a1a13a70c766b54a7ed369f0323897bcce20d808e0fe329f45684570aeeab75",
+      "returncode": 0,
+      "log": "check_nls_order4_profile.log"
+    },
+    {
+      "script": "check_nls_c0_midpoint.py",
+      "sha256": "ebcb2f9f1f82a9bd1c11a3f810d9203fab19484841445ef61255d035f4020cc9",
+      "returncode": 0,
+      "log": "check_nls_c0_midpoint.log"
+    },
+    {
+      "script": "check_kdv_normalization.py",
+      "sha256": "23d4c397d6611e9827231d981f7633e71135e2bb581b37cd515721a8be3e5876",
+      "returncode": 0,
+      "log": "check_kdv_normalization.log"
+    }
+  ],
+  "scope": "continuous-spatial modified-profile R1, not long-time PDE solver validation"
+}

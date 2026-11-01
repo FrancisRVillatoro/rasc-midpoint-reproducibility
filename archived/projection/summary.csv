@@ -1,0 +1,8 @@
+benchmark,h,T,e_norm_final,tangent_exponent,transversal_exponent,transversal_fraction_final,P_transversal_exponent,e_minus_P_rel_final,transversal_Ubasis_over_exact,phase_rate,phase_maxabs,translation_rate,translation_maxabs,amplitude_rate,amplitude_maxabs,boost_rate,boost_maxabs,frequency_rate,frequency_maxabs
+nls,0.016,80.00,7.5844e+01,1.000,0.120,4.21e-03,0.887,6.926e-03,1.890,+6.70186e-01,5.361e+01,-2.60207e-02,2.083e+00,bounded,4.942e-01,bounded,2.790e-02,,
+nls,0.008,80.00,7.5865e+01,1.000,-0.133,2.98e-03,-0.160,1.734e-03,1.512,+6.70399e-01,5.363e+01,-2.60442e-02,2.084e+00,bounded,2.859e-01,bounded,1.063e-02,,
+kdv,0.004,32.00,1.0409e+03,1.001,0.649,4.70e-03,1.005,3.160e-02,0.913,,,-1.57372e+01,5.039e+02,bounded,1.611e+00,,,,
+kdv,0.002,32.00,1.0411e+03,1.001,0.095,2.35e-03,0.887,1.075e-02,0.868,,,-1.57407e+01,5.040e+02,bounded,4.692e-01,,,,
+kdv,0.001,32.00,1.0411e+03,1.001,-0.011,2.01e-03,0.428,3.132e-03,0.955,,,-1.57414e+01,5.040e+02,bounded,2.139e-01,,,,
+sg_breather_w0.5,0.02,100.54,1.7092e+02,1.007,0.604,1.22e-02,0.624,8.598e-03,1.088,-1.61595e-01,1.624e+01,bounded,3.293e-11,,,,,bounded,5.705e-01
+sg_breather_w0.5,0.01,100.53,1.7091e+02,0.993,0.585,1.18e-02,0.588,2.152e-03,1.024,-1.61590e-01,1.623e+01,bounded,1.362e-10,,,,,bounded,2.692e-01

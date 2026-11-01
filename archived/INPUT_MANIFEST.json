@@ -1,0 +1,208 @@
+[
+  {
+    "path": "archived/integrated/objective4_linear.csv",
+    "sha256": "81cbab0f4b566f61769011f28414b504307ebc2527cce50202b894aa264f51d2",
+    "bytes": 5157
+  },
+  {
+    "path": "archived/integrated/proj_kdv_h1e-03.csv",
+    "sha256": "bbbc625fcd582418b57e77a6838fbf4e679e901577b94e22c80ca626a7ea7722",
+    "bytes": 9489
+  },
+  {
+    "path": "archived/integrated/proj_nls_h8e-03.csv",
+    "sha256": "9566dc1f68973075fd85b2162c69da64ed043c244864871bfad9c1b50bad6fcf",
+    "bytes": 12171
+  },
+  {
+    "path": "archived/integrated/proj_sg_breather_w0.5_h1e-02.csv",
+    "sha256": "207cfc0cc8953f3787aa4154621bbd0a6449fe83c9eaf86e575531f170ca8779",
+    "bytes": 58446
+  },
+  {
+    "path": "archived/integrated/renorm_family_h0.032.csv",
+    "sha256": "d6f86dbe4c63dcd925864b19385b97e54186dcc2486656f64ce76e9eeb599082",
+    "bytes": 4636
+  },
+  {
+    "path": "archived/integrated/renorm_family_h0.04.csv",
+    "sha256": "9849f781fe177fbde69f317ff72e8016c273ae0f77ea7c93636de270d9fe4ab8",
+    "bytes": 4619
+  },
+  {
+    "path": "archived/integrated/renorm_family_h0.05.csv",
+    "sha256": "f58e65fd86b6188da8218f802aa238a65d07e97d27ccc741aab9c3f304876820",
+    "bytes": 4617
+  },
+  {
+    "path": "archived/integrated/renorm_fixedT_h0.01.csv",
+    "sha256": "ec4f5de9d4fa0e865791c24525e3bd3e4bd51081f0df4086babf3265671fdd48",
+    "bytes": 977
+  },
+  {
+    "path": "archived/integrated/renorm_fixedT_h0.02.csv",
+    "sha256": "440be16e075014a7f07c0e97024b958791f358f01f3a4aa5a3bfa52298e4322c",
+    "bytes": 977
+  },
+  {
+    "path": "archived/integrated/renorm_fixedT_h0.04.csv",
+    "sha256": "af6ceaa79d9599714b06c9704a07d0f5efee77d6290a79466838aee7999ea3bd",
+    "bytes": 1085
+  },
+  {
+    "path": "archived/integrated/w4_n384_checkpoints.csv",
+    "sha256": "4c98adcf2cdca85cdde2b45624f263e050ed67525f505131b2a5aedd5a358455",
+    "bytes": 907
+  },
+  {
+    "path": "archived/integrated/w4_n384_gram.csv",
+    "sha256": "d0bc0b60460c6b96306a9538d8f470e7326ba010b719d2ff0d54f4e0d5861935",
+    "bytes": 320
+  },
+  {
+    "path": "archived/integrated/w4_n384_svd.csv",
+    "sha256": "d4c699b6516cd7cf2f2c7c1168381a1f5d932fd521ee1f4b53e5df1cdb7237e3",
+    "bytes": 192
+  },
+  {
+    "path": "archived/projection/closed_forms.md",
+    "sha256": "1746a528f485bb6f69aad2db0f24be0569080106203bf1fc63ba7e0be8877a5c",
+    "bytes": 1910
+  },
+  {
+    "path": "archived/projection/closure.csv",
+    "sha256": "b80f803871217e2701152172593bacbaa3269f0edf032cf703d5cf5942a9eda4",
+    "bytes": 626
+  },
+  {
+    "path": "archived/projection/prediction_vs_measurement.csv",
+    "sha256": "898ac5352d7caca250ac7e9467cc7a9c78ace4be016651d39f09142d41adf93a",
+    "bytes": 1781
+  },
+  {
+    "path": "archived/projection/proj_kdv_h1e-03.csv",
+    "sha256": "bbbc625fcd582418b57e77a6838fbf4e679e901577b94e22c80ca626a7ea7722",
+    "bytes": 9489
+  },
+  {
+    "path": "archived/projection/proj_kdv_h2e-03.csv",
+    "sha256": "a17d2576004f5338993d04b8bc0258fe2717ca257c5aa39de2f224a4d1f64c71",
+    "bytes": 9489
+  },
+  {
+    "path": "archived/projection/proj_kdv_h4e-03.csv",
+    "sha256": "8674d49ca683e5d564ef954b24d705ae54ce102f7614df9eced12a7ee3bfc795",
+    "bytes": 9489
+  },
+  {
+    "path": "archived/projection/proj_nls_h2e-02.csv",
+    "sha256": "b57709180c9ff1f8f34c051a1c5a7558bb78fbf913509343d94bec8b895608fb",
+    "bytes": 12136
+  },
+  {
+    "path": "archived/projection/proj_nls_h8e-03.csv",
+    "sha256": "9566dc1f68973075fd85b2162c69da64ed043c244864871bfad9c1b50bad6fcf",
+    "bytes": 12171
+  },
+  {
+    "path": "archived/projection/proj_sg_breather_h1e-01.csv",
+    "sha256": "ecefb61070ee215dcffed0aafd9d56042bc55edc7841209be437791153b80109",
+    "bytes": 11303
+  },
+  {
+    "path": "archived/projection/proj_sg_breather_h1e-02.csv",
+    "sha256": "f1722016ef06f7d5f26710ab56b34f5bfa6f7d4c309a129d1bafaa8a15fb2a68",
+    "bytes": 58692
+  },
+  {
+    "path": "archived/projection/proj_sg_breather_h3e-02.csv",
+    "sha256": "f9d92bfa1e1fb8ad0d05b022784163b0fdf7a06a465f3adc958edc8644b95988",
+    "bytes": 58703
+  },
+  {
+    "path": "archived/projection/proj_sg_breather_h5e-02.csv",
+    "sha256": "86be0367459c43fa3c6c52874126ba1fcee583b38a432a3f0bd7e114801b60df",
+    "bytes": 11358
+  },
+  {
+    "path": "archived/projection/proj_sg_breather_w0.5_h1e-02.csv",
+    "sha256": "207cfc0cc8953f3787aa4154621bbd0a6449fe83c9eaf86e575531f170ca8779",
+    "bytes": 58446
+  },
+  {
+    "path": "archived/projection/proj_sg_breather_w0.5_h2e-02.csv",
+    "sha256": "0672e33968b9394260d6312641b227333bf25d6105f258183a575c0858f69ea1",
+    "bytes": 60020
+  },
+  {
+    "path": "archived/projection/rates_exact.csv",
+    "sha256": "291ecb2af12108c40dfd2f987f3f204ab2368f2a705d7419400a030e40f00fb8",
+    "bytes": 797
+  },
+  {
+    "path": "archived/projection/renorm_family_h0.032.csv",
+    "sha256": "d6f86dbe4c63dcd925864b19385b97e54186dcc2486656f64ce76e9eeb599082",
+    "bytes": 4636
+  },
+  {
+    "path": "archived/projection/renorm_family_h0.04.csv",
+    "sha256": "9849f781fe177fbde69f317ff72e8016c273ae0f77ea7c93636de270d9fe4ab8",
+    "bytes": 4619
+  },
+  {
+    "path": "archived/projection/renorm_family_h0.05.csv",
+    "sha256": "f58e65fd86b6188da8218f802aa238a65d07e97d27ccc741aab9c3f304876820",
+    "bytes": 4617
+  },
+  {
+    "path": "archived/projection/renorm_fixedT_h0.01.csv",
+    "sha256": "ec4f5de9d4fa0e865791c24525e3bd3e4bd51081f0df4086babf3265671fdd48",
+    "bytes": 977
+  },
+  {
+    "path": "archived/projection/renorm_fixedT_h0.02.csv",
+    "sha256": "440be16e075014a7f07c0e97024b958791f358f01f3a4aa5a3bfa52298e4322c",
+    "bytes": 977
+  },
+  {
+    "path": "archived/projection/renorm_fixedT_h0.04.csv",
+    "sha256": "af6ceaa79d9599714b06c9704a07d0f5efee77d6290a79466838aee7999ea3bd",
+    "bytes": 1085
+  },
+  {
+    "path": "archived/projection/renorm_smoke_kdv_h0.004.csv",
+    "sha256": "e84459a4d4c5855d1cf8d2312cfa2dfe434bf40aa4055b845f240f5d9ac4d077",
+    "bytes": 329
+  },
+  {
+    "path": "archived/projection/summary.csv",
+    "sha256": "d1a1d2767ae8d9d6ca4dd5021e9dfca4d23b40f74d2d207404b42464775bc6dc",
+    "bytes": 1275
+  },
+  {
+    "path": "archived/projection/summary_breather_w0.1.csv",
+    "sha256": "b793363b1e853e3b76642dd70ad840d8266bca5e025b619dd7e11b4fde8b1282",
+    "bytes": 203
+  },
+  {
+    "path": "archived/EXCLUDED_smoke_N128/w4_diagnostic.csv",
+    "sha256": "28b06a4eda3ae3a213a815b5a94cae72493308b56b63beedb32131ad9a9ef05e",
+    "bytes": 3172,
+    "original_path_before_smoke_identification": "archived/w4/w4_diagnostic.csv",
+    "status": "EXCLUDED_SMOKE_N128_T2"
+  },
+  {
+    "path": "archived/EXCLUDED_smoke_N128/w4_direction_gram.csv",
+    "sha256": "e48a7d3da3e9234909fd32fc980dad461fe4c20d146f1f63f2c7b9822cba6a57",
+    "bytes": 405,
+    "original_path_before_smoke_identification": "archived/w4/w4_direction_gram.csv",
+    "status": "EXCLUDED_SMOKE_N128_T2"
+  },
+  {
+    "path": "archived/EXCLUDED_smoke_N128/w4_svd.csv",
+    "sha256": "77cbd5781f2acad8c010e15f9752f6800bb616a74f666a8bfa38556a6a1974ae",
+    "bytes": 226,
+    "original_path_before_smoke_identification": "archived/w4/w4_svd.csv",
+    "status": "EXCLUDED_SMOKE_N128_T2"
+  }
+]

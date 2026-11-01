@@ -1,0 +1,37 @@
+[
+  {
+    "test": "check_neutral_closure.py",
+    "passed": true,
+    "sha256": "28f0756c536e21c4b64e1f21095e70c334eb91393bba0cfdcd845f0dfa0be01c",
+    "log": "check_neutral_closure.log",
+    "returncode": 0
+  },
+  {
+    "test": "check_formal_vs_discrete.py",
+    "passed": true,
+    "sha256": "cfa26977a94a8fef4c9a49426b3d6b943ce255dd355c9b513104aa528d7e6d83",
+    "log": "check_formal_vs_discrete.log",
+    "returncode": 0
+  },
+  {
+    "test": "check_reduced_step.py",
+    "passed": true,
+    "sha256": "2c6b442fa3c5f4ec69b765eef905bcf4cdc9a3cd3b4cd51c6a6fbc76ce6dbebd",
+    "log": "check_reduced_step.log",
+    "returncode": 0
+  },
+  {
+    "test": "check_nonlinear_stability_counterexample.py",
+    "passed": true,
+    "sha256": "40756551202e8227f036f09e4f1da7a7ee126f12b69a8f66e4555462ac8d0978",
+    "log": "check_nonlinear_stability_counterexample.log",
+    "returncode": 0
+  },
+  {
+    "test": "check_translation_equivariance.py",
+    "passed": true,
+    "sha256": "65b9392b0f319a1b224aac4e7095aa3c70aeabc20da1f5f0a219e22019560123",
+    "log": "check_translation_equivariance.log",
+    "returncode": 0
+  }
+]

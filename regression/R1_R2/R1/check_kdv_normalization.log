@@ -1,0 +1,5 @@
+KdV stationary residual: 0
+first variation of quadratic invariant: 0
+first variation of linear mass: 128*kappa**7/45
+rate from quadratic-invariant normalized localized branch: -704*kappa**8/45
+PASS KdV normalization

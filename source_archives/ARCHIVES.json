@@ -1,0 +1,17 @@
+[
+  {
+    "file": "source_archives/files (56).zip",
+    "sha256": "a31acea20f569a1314d85965d9eb954a89ddd9f2d44572cf2662023b2a0e20be",
+    "bytes": 586907
+  },
+  {
+    "file": "source_archives/RASC6_NLS_longtime_final_check.zip",
+    "sha256": "22f3c577ef278207c205e8665cf5b43e787ab672c6718da088b1f6737c81b695",
+    "bytes": 66338
+  },
+  {
+    "file": "source_archives/RASC6_W4_diagnostic.zip",
+    "sha256": "224e4d7d17e2ce1e9bb288a8b3862f9092960a5ef97cb197b8cbfa152ca76850",
+    "bytes": 5872
+  }
+]

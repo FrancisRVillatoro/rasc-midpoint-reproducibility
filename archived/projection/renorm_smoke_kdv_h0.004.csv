@@ -1,0 +1,3 @@
+tag,h,t,phase_angle,position_shift,err_MP2,err_ASC4_additive,err_ASC4_renormalized,err_MP2_renormalized_apriori
+smoke,4.000000e-03,0.200000,0.000000e+00,-5.460337e-05,4.847190e-05,1.351722e-06,1.351758e-06,9.794439e-06
+smoke,4.000000e-03,0.400000,0.000000e+00,-1.082173e-04,8.900813e-05,2.187014e-06,2.187384e-06,1.146978e-05

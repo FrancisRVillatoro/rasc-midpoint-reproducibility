@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "derived_files": [
+    {
+      "file": "long_family.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "evidence_summary.json",
+      "byte_identical": true
+    },
+    {
+      "file": "rates_audit.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "w4_spectra.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "w4_gram.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "fixed_time.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "projection_summary.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "w4_checkpoints.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "solver_certificate_summary.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "errors_vs_semidiscrete_reference.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "field_controls.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "w4_pod.csv",
+      "byte_identical": true
+    }
+  ],
+  "regenerated_figures": [
+    {
+      "figure": "fig01_linear_secular.pdf",
+      "raster_max_channel_difference": 0,
+      "metadata_byte_identity_required": false
+    },
+    {
+      "figure": "fig02_first_order_projection.pdf",
+      "raster_max_channel_difference": 0,
+      "metadata_byte_identity_required": false
+    },
+    {
+      "figure": "fig03_rasc4_long_family.pdf",
+      "raster_max_channel_difference": 0,
+      "metadata_byte_identity_required": false
+    },
+    {
+      "figure": "fig04_w4_obstruction.pdf",
+      "raster_max_channel_difference": 0,
+      "metadata_byte_identity_required": false
+    }
+  ],
+  "metadata_check": "YAML/JSON syntax, required fields, version/author/ORCID consistency, no invented self DOI; remote ingestion not attempted",
+  "scientific_producer_hashes": {
+    "legacy/src/integrators/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "legacy/src/integrators/asc.py": "4979517dcc11cd5447d9d82343c81cbda95cf14f5c4a41f770d83284a7f0a5dd",
+    "legacy/src/integrators/etdrk4.py": "3305c7717e0295cac4de0724dd8e0e7401b38c221fa1d51d33dc98a870cf80dd",
+    "legacy/src/integrators/gauss.py": "0115e4250c188c1f03690ac425478f4df70e4741eaf2e6c1cc092c194ce08014",
+    "legacy/src/integrators/lawson.py": "5d1e24db90b1dbf815a3a3d6068969041b5b89595c3ab1c077c91f023bbc52a9",
+    "legacy/src/integrators/midpoint.py": "a26a611451cb8b9e6c4fa26f5da4f846325d85f39c7239aeb8cffbedc4d5e9d7",
+    "legacy/src/integrators/romberg.py": "61cc5c3e258bb38e20152af7b73d3a0c039de671c06fb51ec4616d610ab6d148",
+    "legacy/src/integrators/yoshida.py": "adf0fc157333d963a62801529b35f275ef322d19b145862a65cd0203518fbdc1",
+    "legacy/src/kernel/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "legacy/src/kernel/formulas.py": "5645a22912d999938f112d9ca53a6ed8e510e65ff5184afa1649b1ae21ece330",
+    "legacy/src/kernel/test_kernel.py": "e764736d729577392709e70316231b0f29c6d67ec35dc304fa81d8c9fae8b0d6",
+    "legacy/src/pdes/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "legacy/src/pdes/_spectral.py": "91babc886476e5787ec2c386541271248ffe443f5ce970137583e6d0b6715366",
+    "legacy/src/pdes/burgers.py": "d5852959bfbffd2d453f9157f38edb121952ca1c03dc8bb392b2e8443cb6cc13",
+    "legacy/src/pdes/kdv.py": "cb669dab12c53d87b1037698ffd97e185e8469d663365d099756ff581e928d9f",
+    "legacy/src/pdes/nls.py": "b4e3841a4bb5e0e22933f71f67d0bd2b3070fad649332e9d3e9fa251fcb6f1a9",
+    "legacy/src/pdes/sg.py": "2032fe7bf8fcbf6d55208767c5b5c4e0a64204566c4a1e9ef79011678a7c32fb",
+    "legacy/run_rasc6_nls_longtime.py": "61b0ae0c2f0ef31bab78e873d1bc27c327a89f77e56139362f937760e2cf3a18",
+    "legacy/diagnose_rasc6_W4.py": "403f83074be8bccf2b150f0d67130c1811e50fc795c481dbe56f6ad075434de1",
+    "scripts/certify_nls_run.py": "7ae2695b0c3d7cfbc15b57b45231d36e3c20cea135468a2d58eb4d4b6127be03",
+    "legacy/projection.py": "e5b1609c98c099e3e46998eaf7a35724ef33222b0c1e3b1fed15dd00a08f6689",
+    "scripts/certify_projection_run.py": "a70fa3298ff09f13828b8403e4b2a49f3dfe02617e9774107d27dc764bc7484e"
+  },
+  "python_sources_parse": 50,
+  "public_manuscript_files": [],
+  "clean_rebuild_report": [
+    {
+      "check": "evidence",
+      "returncode": 0
+    },
+    {
+      "check": "figures",
+      "returncode": 0
+    },
+    {
+      "check": "evidence_checks",
+      "returncode": 0
+    },
+    {
+      "check": "R2",
+      "returncode": 0
+    },
+    {
+      "check": "R1",
+      "returncode": 0
+    }
+  ],
+  "scientific_checks": {
+    "saved_evidence": 8,
+    "R2": 5,
+    "R1": 4
+  },
+  "new_PDE_integrations_in_R4": false
+}

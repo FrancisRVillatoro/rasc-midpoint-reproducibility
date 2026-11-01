@@ -1,0 +1,61 @@
+{
+  "run_kind": "NEW_R3_CERTIFIED_REPETITION",
+  "N": 768,
+  "padded_M": 1536,
+  "L": 75.39822368615503,
+  "h": 0.01,
+  "T_target": 4.0,
+  "T": 4.0,
+  "steps": 400,
+  "sigma_requested": 1.0,
+  "actual_slow_phase": 0.00026302083333333337,
+  "checkpoint_steps": [
+    100,
+    200,
+    300,
+    400
+  ],
+  "requested_stage_tolerance": 1e-15,
+  "inner_rtol": 1e-10,
+  "stage_contract": "relative physical component sup residual < 1e-15",
+  "linear_contract": "unpreconditioned coefficient Euclidean residual <= max(1e-8*||rhs||,1e-14)",
+  "krylov_contract": "recomputed left-preconditioned residual <= max(1e-8*||rhs_pre||,1e-28)",
+  "legacy_kernel": {
+    "kernel_sha256": "5645a22912d999938f112d9ca53a6ed8e510e65ff5184afa1649b1ae21ece330",
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "host": "146d7b609816"
+  },
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "sources": {
+    "legacy/src/integrators/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "legacy/src/integrators/asc.py": "4979517dcc11cd5447d9d82343c81cbda95cf14f5c4a41f770d83284a7f0a5dd",
+    "legacy/src/integrators/etdrk4.py": "3305c7717e0295cac4de0724dd8e0e7401b38c221fa1d51d33dc98a870cf80dd",
+    "legacy/src/integrators/gauss.py": "0115e4250c188c1f03690ac425478f4df70e4741eaf2e6c1cc092c194ce08014",
+    "legacy/src/integrators/lawson.py": "5d1e24db90b1dbf815a3a3d6068969041b5b89595c3ab1c077c91f023bbc52a9",
+    "legacy/src/integrators/midpoint.py": "a26a611451cb8b9e6c4fa26f5da4f846325d85f39c7239aeb8cffbedc4d5e9d7",
+    "legacy/src/integrators/romberg.py": "61cc5c3e258bb38e20152af7b73d3a0c039de671c06fb51ec4616d610ab6d148",
+    "legacy/src/integrators/yoshida.py": "adf0fc157333d963a62801529b35f275ef322d19b145862a65cd0203518fbdc1",
+    "legacy/src/kernel/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "legacy/src/kernel/formulas.py": "5645a22912d999938f112d9ca53a6ed8e510e65ff5184afa1649b1ae21ece330",
+    "legacy/src/kernel/test_kernel.py": "e764736d729577392709e70316231b0f29c6d67ec35dc304fa81d8c9fae8b0d6",
+    "legacy/src/pdes/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "legacy/src/pdes/_spectral.py": "91babc886476e5787ec2c386541271248ffe443f5ce970137583e6d0b6715366",
+    "legacy/src/pdes/burgers.py": "d5852959bfbffd2d453f9157f38edb121952ca1c03dc8bb392b2e8443cb6cc13",
+    "legacy/src/pdes/kdv.py": "cb669dab12c53d87b1037698ffd97e185e8469d663365d099756ff581e928d9f",
+    "legacy/src/pdes/nls.py": "b4e3841a4bb5e0e22933f71f67d0bd2b3070fad649332e9d3e9fa251fcb6f1a9",
+    "legacy/src/pdes/sg.py": "2032fe7bf8fcbf6d55208767c5b5c4e0a64204566c4a1e9ef79011678a7c32fb",
+    "legacy/run_rasc6_nls_longtime.py": "61b0ae0c2f0ef31bab78e873d1bc27c327a89f77e56139362f937760e2cf3a18",
+    "legacy/diagnose_rasc6_W4.py": "403f83074be8bccf2b150f0d67130c1811e50fc795c481dbe56f6ad075434de1",
+    "scripts/certify_nls_run.py": "7ae2695b0c3d7cfbc15b57b45231d36e3c20cea135468a2d58eb4d4b6127be03"
+  },
+  "status": "PASS",
+  "elapsed_s": 21.21632540500002
+}

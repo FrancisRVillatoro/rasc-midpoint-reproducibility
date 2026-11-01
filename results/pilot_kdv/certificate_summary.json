@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "certified_steps": 32000,
+  "certified_correction_solves": 32000,
+  "certified_gmres_calls": 96000,
+  "stage_residual_max": 7.97949307063467e-17,
+  "krylov_certificate_ratio_max": 0.00995214312956307,
+  "sweep_certificate_ratio_max": 0.012433968469265679,
+  "sweep_relative_residual_max": 1.2433968469265678e-10,
+  "elapsed_s": 275.93931446100004,
+  "final": {
+    "benchmark": "kdv",
+    "h": 0.001,
+    "N": 768,
+    "t": 32.0,
+    "err_mp2_sup": 0.0007763925279902217,
+    "e_norm": 1041.1321687001246,
+    "e_tangent": 1041.1300675331688,
+    "e_transversal": 2.091693238824103,
+    "P_norm": 1041.130894146407,
+    "P_tangent": 1041.1236054104843,
+    "P_transversal": 3.8957673404716147,
+    "e_minus_P_rel": 0.0031320607295510644,
+    "e_coef_translation": -504.03481599248755,
+    "P_coef_translation": -504.0315415528098,
+    "e_coef_amplitude": 0.18319146741492176,
+    "P_coef_amplitude": 0.279015771461094
+  }
+}

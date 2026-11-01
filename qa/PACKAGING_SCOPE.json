@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "source_revision": "R3 numerical evidence, R1/R2 regressions",
+  "new_scientific_runs_in_R4": false,
+  "remote_publication": false,
+  "self_doi": null,
+  "adaptations": [
+    "Metadata, license and documentation added",
+    "Public check_evidence removes only manuscript-preservation test from R3 checker",
+    "Full campaign wrapper omits manuscript assembly",
+    "Saved-data rebuild uses a new external directory",
+    "Figure generator and regenerated PDF/PNG panels use JNM uppercase A/B/C labels; no numerical changes"
+  ],
+  "manuscript_included": false,
+  "producer_code_changed": false
+}

@@ -1,0 +1,14 @@
+# Generated scratch products; do not overwrite recorded data.
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.aux
+*.fls
+*.fdb_latexmk
+work/
+scratch/
+tables/*.tex
+# Publication sources intentionally live in a separate private package.
+rasc_midpoint_*.tex
+rasc_midpoint_*.pdf

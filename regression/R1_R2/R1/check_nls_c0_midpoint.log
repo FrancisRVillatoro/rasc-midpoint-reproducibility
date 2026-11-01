@@ -1,0 +1,7 @@
+h= 0.1 mass= 2.0 max_midpoint_residual= 8.323e-71
+h= 0.05 mass= 2.0 max_midpoint_residual= 1.1631e-70
+h= 0.025 mass= 2.0 max_midpoint_residual= 1.4111e-70
+h= 0.0125 mass= 2.0 max_midpoint_residual= 2.024e-70
+omega_h = 33*eta**10*h**4/40 - 7*eta**6*h**2/12 + eta**2
+r_phi4(c=0) = -33*eta**10/40
+PASS exact NLS midpoint c=0

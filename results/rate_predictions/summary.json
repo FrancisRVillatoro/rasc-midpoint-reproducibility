@@ -1,0 +1,49 @@
+{
+  "nls": {
+    "Riesz": {
+      "steady_rel": 1.1404435446091258e-12,
+      "gap": 0.9999999999999967,
+      "rho": 0.3333333333333322,
+      "eig_inside": 4,
+      "quad_rel_diff": 3.239273859345084e-09,
+      "t2_over_t": 2.4349519972146058e-15,
+      "Pi0g_over_g": 1.298800022857024,
+      "build_s": 7.676635592000025,
+      "g_sup": 0.5367519816555428
+    },
+    "complement_eigenbasis_relative_residual": 7.147167311967558e-15,
+    "pilot_file": "proj_nls_h8e-03.csv",
+    "sha256": "9566dc1f68973075fd85b2162c69da64ed043c244864871bfad9c1b50bad6fcf"
+  },
+  "kdv": {
+    "Riesz": {
+      "steady_rel": 2.1838219038177802e-11,
+      "gap": 0.40639632817296,
+      "rho": 0.13546544272432,
+      "eig_inside": 3,
+      "quad_rel_diff": 3.0631362878411304e-10,
+      "t2_over_t": 8.968689013047047e-15,
+      "Pi0g_over_g": 0.6015752428691781,
+      "build_s": 1.0641524369999615,
+      "g_sup": 48.58987905763697
+    },
+    "complement_eigenbasis_relative_residual": 7.153798010906131e-14,
+    "pilot_file": "proj_kdv_h1e-03.csv",
+    "sha256": "bbbc625fcd582418b57e77a6838fbf4e679e901577b94e22c80ca626a7ea7722"
+  },
+  "SG": {
+    "rates": {
+      "phase": -0.16145833333130974,
+      "frequency": 5.759874171551701e-15
+    },
+    "diagnostics": {
+      "Omega12": -18.47520861408909,
+      "Omega12_variation": 7.381042286525664e-11,
+      "F1_mean_over_rms": 6.682451885582715e-14,
+      "sample_convergence": 3.099456175624638e-13,
+      "build_s": 0.37605629200004387
+    }
+  },
+  "status": "PASS",
+  "elapsed_s": 13.720255715999997
+}

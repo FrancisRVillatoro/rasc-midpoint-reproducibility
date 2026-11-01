@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "historical_inputs_immutable",
+      "status": "PASS",
+      "details": {
+        "files": 40,
+        "smoke_excluded": 3
+      }
+    },
+    {
+      "check": "all_step_residual_certificates",
+      "status": "PASS",
+      "details": {
+        "runs": 13,
+        "steps": 161824,
+        "corrector_solves": 271595
+      }
+    },
+    {
+      "check": "all_sampled_errors_and_reconstructions",
+      "status": "PASS",
+      "details": {
+        "samples": 327,
+        "metrics": [
+          "component_sup",
+          "complex_sup",
+          "real_L2"
+        ],
+        "max_absolute_error_gap": 0.0
+      }
+    },
+    {
+      "check": "pilot_projection_recomputation",
+      "status": "PASS",
+      "details": {
+        "max_absolute_gap": 0.0
+      }
+    },
+    {
+      "check": "scientific_snapshots_Parseval_projection_POD",
+      "status": "PASS",
+      "details": {
+        "snapshots": 4,
+        "N": 384,
+        "best_rank2_relative_residual": 0.6843809093803835
+      }
+    },
+    {
+      "check": "independent_semidiscrete_reference_consistency",
+      "status": "PASS",
+      "details": {
+        "paired_reference_max_relative_l2": 1.43405031454321e-10,
+        "coarse_vs_analytic_max_l2": 6.346041678892218e-11,
+        "fine_vs_analytic_max_l2": 2.00563438275515e-10,
+        "fine_vs_analytic_max_cinf": 2.0036142945788832e-10,
+        "max_RASC4_absolute_error_change": 8.208127103351281e-11
+      }
+    },
+    {
+      "check": "paired_polynomial_Galerkin_symmetry_controls",
+      "status": "PASS",
+      "details": {
+        "same_state_pairs": 2
+      }
+    },
+    {
+      "check": "rate_extrapolation_provenance",
+      "status": "PASS",
+      "details": {
+        "rates": 4,
+        "NLS_actual_coarse_h": 0.016
+      }
+    }
+  ],
+  "qualification": "Certificates apply to NEW R3 runs and saved samples. They do not establish nonlinear long-time stability, rigorous reference accuracy or a universal W4 obstruction."
+}
